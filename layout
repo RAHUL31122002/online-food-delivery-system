@@ -1,0 +1,52 @@
+FoodApp/
+├─ backend/
+│ ├─ pom.xml
+│ └─ src/
+│ ├─ main/java/com/foodapp/
+│ │ ├─ FoodAppApplication.java
+│ │ ├─ DataLoader.java
+│ │ ├─ config/WebSocketConfig.java
+│ │ ├─ security/JwtUtil.java
+│ │ ├─ security/JwtAuthFilter.java
+│ │ ├─ security/SecurityConfig.java
+│ │ ├─ entity/
+│ │ │ ├─ User.java
+│ │ │ ├─ Restaurant.java
+│ │ │ ├─ MenuItem.java
+│ │ │ ├─ Cart.java
+│ │ │ ├─ CartItem.java
+│ │ │ ├─ FoodOrder.java
+│ │ │ └─ OrderItem.java
+│ │ ├─ repository/
+│ │ │ ├─ UserRepository.java
+│ │ │ ├─ RestaurantRepository.java
+│ │ │ ├─ MenuItemRepository.java
+│ │ │ ├─ CartRepository.java
+│ │ │ ├─ CartItemRepository.java
+│ │ │ ├─ FoodOrderRepository.java
+│ │ │ └─ OrderItemRepository.java
+│ │ └─ controller/
+│ │ ├─ AuthController.java
+│ │ ├─ RestaurantController.java
+│ │ ├─ CartController.java
+│ │ └─ OrderController.java
+│ └─ main/resources/application.yml
+└─ frontend/
+├─ package.json
+└─ src/
+├─ index.html
+├─ main.ts
+└─ app/
+├─ app.module.ts
+├─ app-routing.module.ts
+├─ app.component.ts
+├─ app.component.html
+├─ services/
+│ ├─ api.service.ts
+│ ├─ stomp.service.ts
+│ ├─ auth.service.ts
+│ └─ auth.interceptor.ts
+├─ restaurant-list/
+│ ├─ restaurant-list.component.ts
+│ └─ restaurant-list.component.html
+└─ tracking.component.html
