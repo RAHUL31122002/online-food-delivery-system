@@ -1,5 +1,5 @@
 # online-food-delivery-system
-Food Delivery App – Spring Boot + Angular
+Food Delivery App
 
 This is a Swiggy/Zomato-style food ordering system that connects restaurants with customers. Users can browse menus, add items to a cart, place orders, track delivery status, and pay online. Admins can onboard restaurants, manage menus, and monitor order flow.
 
@@ -28,6 +28,8 @@ Database: MySQL
 Payment: Razorpay / Stripe
 
 Notifications: Email + SM
+
+
 food-delivery-app/
 │
 ├── backend/ # Spring Boot project
